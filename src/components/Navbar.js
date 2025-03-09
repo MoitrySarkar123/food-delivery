@@ -23,13 +23,18 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul className="navbar-nav">
               <li>
-              <Link className="nav-link active" aria-current="page" to="/">
+              <Link className="nav-link" aria-current="page" to="/">
                 Home
               </Link>
               </li>
               <li>
               <Link className="nav-link" to="/login">
                 Login
+              </Link>
+              </li>
+              <li>
+              <Link className="nav-link" to="/createuser">
+                SignUp
               </Link>
               </li>
              
